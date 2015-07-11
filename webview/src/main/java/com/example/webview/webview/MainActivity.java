@@ -70,7 +70,7 @@ public class MainActivity extends Activity {
             @Override
             public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
-                view.loadUrl("javascript:TT()");
+                view.loadUrl("javascript:TT()    ");
 
             }
 
